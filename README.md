@@ -46,12 +46,20 @@ Python will connect to the `ESP8266` and pull the sensor data like a MQTT broker
 ----
 4) Grafana **
     1. `<can be a docker container on a Raspberry Pi>`
-    2. `<Insert container instructions/ compose file>`
+    2. `docker run -d --name grafana \
+    -e TZ=Asia/Shanghai \
+    -p 3000:3000 \
+    -v /root/grafana:/var/lib/grafana \
+    -v /root/grafana/plugins:/var/lib/grafana/plugins \
+    --restart always \
+    grafana/grafana:latest`
     3. Connect to MySQL DB. 
     4. Create a Graph. `
 Grafana is a good database tool for creating graphs with the data collected, though you could add this to zabbix/home assistant. 
 
+----
 
+Overview
 ![image](https://github.com/Fruityski/Live-Power-Usage/assets/41670430/682947c8-0ea1-4cbc-a133-462b9f4ddf62)
 
 
