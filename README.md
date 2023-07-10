@@ -6,6 +6,7 @@
 ` Wiring Diagram` 
 <img src="https://github.com/Fruityski/Live-Power-Usage/assets/41670430/d68ee431-63c7-48d2-968a-858c21b49a52" width="500" height="390">
 
+In this diagram I have a `393 light sensor` wired up to the `ESP8266` 
 
       2. ESP 8266, running ESP Easy.
 `<Install ESP EASY on Node MCU>`
