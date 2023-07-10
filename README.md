@@ -50,6 +50,7 @@ In this diagram I have a `393 light sensor` wired up to the `ESP8266`
 
 
 
+![image](https://github.com/Fruityski/Live-Power-Usage/assets/41670430/d3fb5e62-ab26-4569-9aaf-321109688dee)
 
 
 
